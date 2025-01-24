@@ -12,4 +12,4 @@
 # --x11 == allows X11 forwarding and GUI options
 # More details on srun options can be found: https://slurm.schedmd.com/srun.html
 
-srun --export=USER,HOME,PATH,TERM,DISPLAY --account=jgms5830-rfi-train --qos=rfi --nodes=1-1 --ntasks=18 --gres=gpu:1 --time=01:00:00 --pty /bin/bash
+srun --export=USER,HOME,PATH,TERM,DISPLAY --account=jgms5830-rfi-train --qos=rfi --nodes=1-1 --ntasks=36 --gres=gpu:1 --time=01:00:00 --pty /bin/bash
